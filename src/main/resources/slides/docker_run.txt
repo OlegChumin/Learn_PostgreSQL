@@ -1,2 +1,2 @@
-docker pull postgres
+docker pull postgres:latest
 docker run --name POSTGRESQL_CONTAINER -e POSTGRES_PASSWORD=01601 -p 5432:5432 -v /c/Users/Oleg/MyPostgreSQL/data:/var/lib/postgresql/data -d postgres
